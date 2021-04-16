@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #444;
+}
+
+:root {
+    font-family: 'Inter', sans-serif;
+    font-size: 180%;
+}
+
+body {
+    min-height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.qtd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75px;
+    /* height: 75px; */
+}
+
+.qtd input {
+    width: 100%;
+    height: 100%;
+
+    text-align: center;
+    font-size: 50px;
+
+    border: 0.5px solid #666;
+    border-radius: 5px;
+    outline: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+  
+}
+
+input[type=number]:focus {
+    color: #333;
+    border: 0.5px solid #333;
+}
+
+span {
+    font-size: 300%;
+}
+
+input {
+    width: 160px;
+    font-size: 28px;
+    margin-top: 10px;
+    padding: 5px;
+
+    border: 0.5px solid #666;
+    outline: none;
+}
+
+input:focus {
+    color: #333;
+    border: 0.5px solid #333;
+}
+
+button {
+    width: 160px;
+    margin-top: 10px;
+
+    background-color: transparent;
+    border: 0;
+
+    font-size: 200%;
+}
+
+button:hover {
+    cursor: pointer;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+a:hover {
+    color: #333;
+}

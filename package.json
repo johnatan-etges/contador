@@ -1,0 +1,16 @@
+{
+  "name": "contador",
+  "version": "1.0.0",
+  "description": "",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "npx electron-packager . --icon asses/appicon.icns --out=packages"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^12.0.2"
+  }
+}
